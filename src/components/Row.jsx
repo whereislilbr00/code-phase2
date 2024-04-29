@@ -8,6 +8,7 @@ export default function Row({transactions}){
             <td>{transaction.description}</td>
             <td>{transaction.category}</td>
             <td>{transaction.amount}</td>
+            
             <td>
                 <Button/>
             </td>

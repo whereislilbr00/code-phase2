@@ -1,4 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type"
 import Row from "./Row"
  export default function Table(){
 
@@ -34,16 +33,15 @@ import Row from "./Row"
     ]
     return( 
         <>
-        <div classname="m-7 p-7">
-            <input className="form-control form-control-sm" type="text" placeholder="Type transaction" />
-        </div>
-        <table className="table table-dark">
+        
+        <table className="container table table-dark">
              <thead>
                  <tr>
                     <th>Date</th>
                     <th>Description</th>
                     <th>Category</th>
                     <th>Amount</th>
+                    <th>Action</th>
                  </tr>
              </thead>
              <tbody>
